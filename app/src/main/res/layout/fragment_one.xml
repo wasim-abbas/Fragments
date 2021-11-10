@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackG"
+    tools:context=".fragemntUI.FragmentOne">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:text="@string/fragmnt1"
+        />
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:layout_gravity="top"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        tools:ignore="RtlCompat" />
+
+</FrameLayout>
